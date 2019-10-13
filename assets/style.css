@@ -1,0 +1,97 @@
+.backgroundborder {
+    padding: 50px;
+    border: 1pt black solid;
+    background-image: url("images/dotgrid.png");
+    margin-bottom: 0%;
+}
+.bodyborder {
+    box-sizing: border-box;
+    border: 1pt black solid;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+.logo {
+    float: left;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    width: 22.5%;
+    margin-bottom: 0%;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: relative;
+    left: 26.5%;
+}
+a:link {
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+#About {
+    float: right;
+    background-color: transparent;
+    padding: 1px;
+    width: 10%;
+    border: none;
+}
+#Portfolio {
+    float: right;
+    background-color: transparent;
+    padding: 1px;
+    width: 10%;
+    border: none;
+}
+#Contact {
+    float: right;
+    background-color: transparent;
+    padding: 1px;
+    width: 10%;
+    border: none;
+}
+.header {
+    float: left;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 100%;
+    color: #4aaaa5;
+    text-align: left;
+    border-color: #cccccc;
+    height: 15px;
+    padding: 0;
+}
+.body {
+    padding: 15px;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-color: #dddddd;
+    width: 95%;
+    color: #777777;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.image {
+    float: left;
+    padding: 10px;
+    margin-bottom: 0%;
+}
+.footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 110%;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
