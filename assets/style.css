@@ -1,31 +1,29 @@
 .backgroundborder {
-    padding: 50px;
+    padding: 50px 100px 100px 100px;
     border: 1pt black solid;
     background-image: url("images/dotgrid.png");
     margin-bottom: 0%;
 }
 .bodyborder {
-    box-sizing: border-box;
+    box-sizing: content-box;
     border: 1pt black solid;
     margin: 0;
-    padding: 0;
-    height: 50%;
-    width: 50%;
+    padding: 0px 10px 20px 10px;
+    height: 55%;
+    width: 55%;
     position: relative;
     left: 25%;
-  }
+    background-color: #ffffff;
+}
 .logo {
     float: left;
-    padding-top: 2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    width: 22.5%;
+    padding: 2px;
+    width: 23%;
     margin-bottom: 0%;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: relative;
-    left: 26.5%;
+    left: 28.4%;
 }
 a:link {
     color: #777777;
@@ -34,6 +32,7 @@ a:link {
 }
 #About {
     float: right;
+    color: #777777;
     background-color: transparent;
     padding: 1px;
     width: 10%;
@@ -41,6 +40,7 @@ a:link {
 }
 #Portfolio {
     float: right;
+    color: #777777;
     background-color: transparent;
     padding: 1px;
     width: 10%;
@@ -48,6 +48,7 @@ a:link {
 }
 #Contact {
     float: right;
+    color: #777777;
     background-color: transparent;
     padding: 1px;
     width: 10%;
@@ -57,11 +58,11 @@ a:link {
     float: left;
     background-color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    width: 100%;
+    width: 33%;
     color: #4aaaa5;
     text-align: left;
     border-color: #cccccc;
-    height: 15px;
+    height: 10px;
     padding: 0;
 }
 .body {
