@@ -4,12 +4,9 @@
     background-image: url("images/dotgrid.png");
 }
 .bodyborder {
-    box-sizing: content-box;
     border: 1pt black solid;
-    margin: 0;
     padding: 0px 10px 20px 10px;
-    height: 55%;
-    width: 55%;
+    width: 60%;
     position: relative;
     left: 25%;
     background-color: #ffffff;
