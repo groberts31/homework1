@@ -92,3 +92,7 @@ a:link {
     display: block;
     clear: both;
 }
+.pic1 {
+    float: left;
+    border: none;
+}
