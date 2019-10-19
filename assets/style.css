@@ -1,15 +1,17 @@
 .backgroundborder {
     padding: 50px 100px 100px 100px;
     border: 1pt black solid;
-    background-image: url("images/dotgrid.png");
+    background-image: url("images/gravel.png");
 }
 .bodyborder {
     border: 1pt black solid;
     padding: 0px 10px 20px 10px;
     width: 60%;
+    height: auto;
     position: relative;
     left: 25%;
     background-color: #ffffff;
+    
 }
 .logo {
     float: left;
@@ -22,6 +24,11 @@
     left: 28.4%;
 }
 a:link {
+    color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
     color: #777777;
     background-color: transparent;
     text-decoration: none;
@@ -95,4 +102,133 @@ a:link {
 .pic1 {
     float: left;
     border: none;
+    background-color: transparent;
+    padding: 9px;
+    width: 30%;
+    position: static;
+    z-index: -1;
+}
+.pic2 {
+    float: left;
+    border: none;
+    background-color: transparent;
+    padding: 9px;
+    width: 30%;
+    position: relative;
+}.pic3 {
+    float: left;
+    border: none;
+    background-color: transparent;
+    padding: 9px;
+    width: 30%;
+    position: relative;
+}
+.pic4 {
+    float: left;
+    border: none;
+    background-color: transparent;
+    padding: 9px;
+    width: 30%;
+    position: relative;
+}
+.pic5 {
+    float: left;
+    border: none;
+    background-color: transparent;
+    padding: 9px;
+    width: 30%;
+}
+.pic6 {
+    float: left;
+    border: none;
+    background-color: transparent;
+    padding: 9px;
+    width: 30%;
+}
+.SubmitBtn {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.imagefix {
+    align-content: center
+}
+.bowling {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 47px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-decoration: none;
+    bottom: 20%;
+    float: left;
+}
+.basketball {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 47px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-decoration: none;
+    bottom: 20%;
+    float: left;
+}
+.pool {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 47px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-decoration: none;
+    bottom: 20%;
+    float: left;
+}
+.spades {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 47px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-decoration: none;
+    bottom: 20%;
+    float: left;
+}
+.gym {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 47px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-decoration: none;
+    bottom: 20%;
+    float: left;
+}
+.macbook {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 47px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-decoration: none;
+    bottom: 20%;
+    float: left;
 }
