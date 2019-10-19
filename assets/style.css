@@ -157,9 +157,6 @@ a:visited {
     margin: 4px 2px;
     cursor: pointer;
 }
-.imagefix {
-    align-content: center
-}
 .bowling {
     background-color:#4aaaa5;
     border: none;
@@ -169,8 +166,6 @@ a:visited {
     font-size: 16px;
     margin: 4px 2px;
     text-decoration: none;
-    bottom: 20%;
-    float: left;
 }
 .basketball {
     background-color:#4aaaa5;
@@ -231,4 +226,11 @@ a:visited {
     text-decoration: none;
     bottom: 20%;
     float: left;
+}
+.imagefix {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 600px;
+    color: #4aaaa5;
+    border-color: #cccccc;
 }
